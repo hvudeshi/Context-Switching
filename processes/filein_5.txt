@@ -1,0 +1,5 @@
+ADD i j sum1
+SUB b a sub2
+MUL c d mul2
+DIV e f div2
+ADD AddResult 1000 MulResult

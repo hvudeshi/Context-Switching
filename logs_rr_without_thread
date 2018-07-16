@@ -1,0 +1,99 @@
+<--- START of Round Robin Log file (without Threads) --->
+
+Time slice = 2 instructions
+
+Ready Queue:
+
+Front -> processes/filein_5.txt | processes/filein_4.txt | processes/filein_1.txt | processes/filein_2.txt | processes/filein_3.txt
+
+----------
+
+Process name: processes/filein_5.txt
+Instruction: ADD i j sum1
+Decoded instruction: 1 90 100 sum1
+sum1: 190
+
+Process name: processes/filein_5.txt
+Instruction: SUB b a sub2
+Decoded instruction: 2 20 10 sub2
+sub2: 10
+
+----------
+
+Process name: processes/filein_4.txt
+Instruction: DIV c d div1
+Decoded instruction: 4 830 40 div1
+div1: 20
+
+Process name: processes/filein_4.txt
+Instruction: MUL e f mul1
+Decoded instruction: 3 29 69 mul1
+mul1: 2001
+
+----------
+
+Process name: processes/filein_1.txt
+Instruction: ADD a b AddResult
+Decoded instruction: 1 10 20 AddResult
+AddResult: 30
+
+Process name: processes/filein_1.txt
+Instruction: SUB c d SubResult
+Decoded instruction: 2 830 40 SubResult
+SubResult: 790
+
+----------
+
+Process name: processes/filein_2.txt
+Instruction: MUL e f DivResult
+Decoded instruction: 3 29 69 DivResult
+DivResult: 2001
+
+----------
+
+Process name: processes/filein_3.txt
+Instruction: DIV g h MulResult
+Decoded instruction: 4 70 80 MulResult
+MulResult: 0
+
+Process name: processes/filein_3.txt
+Instruction: MOD i j ModResult
+Decoded instruction: 5 90 100 ModResult
+ModResult: 90
+
+----------
+
+Process name: processes/filein_5.txt
+Instruction: MUL c d mul2
+Decoded instruction: 3 830 40 mul2
+mul2: 33200
+
+Process name: processes/filein_5.txt
+Instruction: DIV e f div2
+Decoded instruction: 4 29 69 div2
+div2: 0
+
+----------
+
+Process name: processes/filein_4.txt
+Instruction: SUB g h sub1
+Decoded instruction: 2 70 80 sub1
+sub1: -10
+
+----------
+
+Process name: processes/filein_3.txt
+Instruction: MOD a b mod1
+Decoded instruction: 5 10 20 mod1
+mod1: 10
+
+----------
+
+Process name: processes/filein_5.txt
+Instruction: ADD AddResult 1000 MulResult
+Decoded instruction: 1 30 1000 MulResult
+MulResult: 1030
+
+----------
+
+<--- END of Log file --->
